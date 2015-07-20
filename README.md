@@ -11,3 +11,8 @@ pr.set_value(1234);
 printf("%d\n", ~f); // 1234
 
 ```
+```cpp
+#define yield ~
+
+printf("%d\n", yield f);
+```
