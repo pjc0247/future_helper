@@ -12,7 +12,7 @@ printf("%d\n", ~f); // 1234
 
 ```
 ```cpp
-#define yield ~
+#define await ~
 
-printf("%d\n", yield f);
+printf("%d\n", await f);
 ```
